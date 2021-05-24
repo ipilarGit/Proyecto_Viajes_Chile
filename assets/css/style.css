@@ -5,30 +5,78 @@ body {
   background-color: black;
   margin: 0;
   padding: 0;
-
+  box-sizing: border-box;
 }
 
 header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
-  padding-bottom: 10rem;
 }
 
-.bg-dark{
+#logo-nav {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+#texto-nav {
+  font-size: 1em;
+}
+
+.texto-about{
+  font-size: 0.875em;
+  font-weight: 400;
+}
+
+.title-destacados{
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.texto-destacados{
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.bg-dark {
   background-color: black !important;
 }
 
-hr{
+hr {
   border-width: 0.1em;
 }
 
-/* .carousel-indicators {
-  top: 50px;
+.card {
+  width: 100%;
+}
+
+.inner{
+  overflow:hidden;
+}
+
+.inner img{
+  transition: all 1.5s ease;
+}
+
+.inner:hover img{
+  transform: scale(1.5)
+}
+
+.slow {
+  display: none
+}
+
+footer h3 span{
+  font-size: 1em;
+}
+
+.imgCarrousel{
+  width:100%;; 
 }
 
 .carousel-indicators li {
-  width: 10px;
-  height: 10px;
+  width: 0.625em;
+  height: 0.625em;
   border-radius: 50%;
-} */
+} 
+
